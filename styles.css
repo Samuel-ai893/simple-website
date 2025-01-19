@@ -170,10 +170,6 @@ article h3::first-line{
     font-size: 1.2em;
 }
 
-section.join p::first-letter{
-    font-size: 1.5em;
-}
-
 p::selection{
     background-color: red;
     color: white;
