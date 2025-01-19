@@ -40,14 +40,6 @@ header h1{
     top: 30px;
 }
 
-.bannerv h2{
-    font-size: 74px;
-}
-
-.bannerv h2 span{
-    font-size: 1.3em;
-}
-
 nav{
     background-color: #afd4ecdc;
     padding: 20px;
@@ -162,19 +154,8 @@ p::selection{
 
 @media screen and (max-width: 1400px){
 
-    .bannerv .welcome h2{
-        font-size: 60px;
-    }
-
     nav li{
         font-size: 18px; 
-    }
-}
-
-@media screen and (max-width: 960px){
-
-    .bannerv .welcome h2{
-        font-size: 40px;
     }
 }
 
@@ -188,12 +169,7 @@ p::selection{
     .bannerv .welcome br{
         display: none;
     }
-    .bannerv .welcome h2{
-        font-size: 25px;
-    }
-    .bannerv .welcome span{
-        font-size: 1em;
-    }
+    
     .images li{
         width: 100%;
         margin: 20px auto;
