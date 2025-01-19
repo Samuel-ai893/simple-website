@@ -40,14 +40,6 @@ header h1{
     top: 30px;
 }
 
-.bannert h2{
-    font-size: 74px;
-}
-
-.bannert h2 span{
-    font-size: 1.3em;
-}
-
 nav{
     background-color: #afd4ecdc;
     padding: 20px;
@@ -126,14 +118,6 @@ section.join{
     font-size: 36px;
 }
 
-form input{
-    margin: 20px 0px;
-    padding: 10px 20px;
-    font-size: 24px;
-    border-radius: 28px;
-    border: 4px solid white;
-}
-
 footer{
     background-color: #0968f7de;
     color: white;
@@ -154,22 +138,9 @@ nav li a:hover{
    top: -4px; 
 }
 
-form input:focus{
-    border: 4px dashed #4b4b4b4b;
-    outline: none;
-}
-
-form input:valid{
-    border: 4px solid #71d300;
-}
-
 article p::first-line{
     font-weight: bold;
     font-size: 1.2em;
-}
-
-section.join p::first-letter{
-    font-size: 1.5em;
 }
 
 p::selection{
@@ -181,19 +152,8 @@ p::selection{
 
 @media screen and (max-width: 1400px){
 
-    .bannert .welcome h2{
-        font-size: 60px;
-    }
-
     nav li{
         font-size: 18px; 
-    }
-}
-
-@media screen and (max-width: 960px){
-
-    .bannert .welcome h2{
-        font-size: 40px;
     }
 }
 
@@ -207,12 +167,7 @@ p::selection{
     .bannert .welcome br{
         display: none;
     }
-    .bannert .welcome h2{
-        font-size: 25px;
-    }
-    .bannert .welcome span{
-        font-size: 1em;
-    }
+
     .images li{
         width: 100%;
         margin: 20px auto;
